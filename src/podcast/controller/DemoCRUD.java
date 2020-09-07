@@ -1,6 +1,5 @@
 package podcast.controller;
 
-import java.net.http.HttpRequest;
 import java.util.List;
 
 import javax.servlet.ServletContext;
@@ -19,7 +18,6 @@ import podcast.model.dao.ActivityDAO;
 import podcast.model.dao.CategoryDAO;
 import podcast.model.javabean.ActivityBean;
 import podcast.model.javabean.CategoryBean;
-
 
 //for test server 
 @Controller
@@ -52,6 +50,7 @@ public class DemoCRUD {
     		System.out.println(i.getCategoryName());
     	}
     	
+    	//new test for monk git 
     	
 		m.addAttribute("msg","You got mail!");
 		return "/success";
