@@ -19,7 +19,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 //first push .......
 
 
+
+//test use uuu
+
+//sssss
 //test use 
+
 @Controller
 public class ResponseController {
 	@RequestMapping(path="/response/responseBody.controller",method=RequestMethod.GET)
