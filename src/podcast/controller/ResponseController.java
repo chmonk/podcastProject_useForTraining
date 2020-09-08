@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 
 
-//test use 
+//test use uuu
 @Controller
 public class ResponseController {
 	@RequestMapping(path="/response/responseBody.controller",method=RequestMethod.GET)
