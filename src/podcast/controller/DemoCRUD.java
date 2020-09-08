@@ -27,7 +27,7 @@ public class DemoCRUD {
     @RequestMapping(method = RequestMethod.GET)
 	public String processActin(HttpServletRequest request,HttpServletResponse response,Model m) throws Exception {
     	
-    	//取得註冊物件的context
+    	//取得註冊物件的context hihi
     	ServletContext app = request.getServletContext();
     	WebApplicationContext context = WebApplicationContextUtils.getWebApplicationContext(app);
     	
