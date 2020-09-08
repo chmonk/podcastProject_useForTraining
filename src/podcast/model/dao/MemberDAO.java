@@ -12,7 +12,7 @@ import org.springframework.stereotype.Repository;
 
 import podcast.model.idao.IMemberDAO;
 import podcast.model.javabean.MemberBean;
-
+//test
 @Repository("MemberDAO")
 public class MemberDAO implements IMemberDAO {
 
