@@ -12,7 +12,7 @@ import org.springframework.stereotype.Repository;
 
 import podcast.model.idao.IOrderTicketDAO;
 import podcast.model.javabean.OrderTicketBean;
-
+//hello,how are you
 @Repository("OrderTicketDAO")
 public class OrderTicketDAO implements IOrderTicketDAO {
 	// @Autowired 自動找尋適合的註冊實體
