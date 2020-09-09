@@ -18,7 +18,7 @@ import org.springframework.web.context.support.WebApplicationContextUtils;
 
 //filter for transaction (begin /commit / rollback/ close)
 public class OpenSessionViewFilter implements Filter {
-
+//hi
 	private SessionFactory sessionFactory;
 	private WebApplicationContext context;
 
